@@ -10,7 +10,7 @@ namespace WebApiContainer.Controllers
     public class ItemContainer
     {
         Dictionary<string, string> _itemsCatelog = new Dictionary<string, string>();
-
+        //Add caching support
         // GET api/values
         [HttpGet]
         public IEnumerable<string> Get()
